@@ -5,7 +5,7 @@ pipeline {
     stages {
 
       
-     stage('STAGE122') {
+     stage('STAGE1') {
         
           steps {
               script  {
