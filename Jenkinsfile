@@ -10,7 +10,7 @@ pipeline {
           steps {
               script  {
                echo "DEV"
-			   powershell ''' aws '''
+			   powershell ''' cd C:\\Users\\YASSER\\ && aws '''
 
 			   } 
               }
