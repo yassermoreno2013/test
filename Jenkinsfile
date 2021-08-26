@@ -9,7 +9,7 @@ pipeline {
         
           steps {
               script  {
-               echo "DEV"
+               echo "DEVELP"
                 } 
               }
               
