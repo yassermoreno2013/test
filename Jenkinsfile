@@ -10,7 +10,14 @@ pipeline {
           steps {
               script  {
                echo "DEV"
-			   powershell ''' echo aws '''
+			   powershell ''' 
+			   $route = cd C:\\Program Files\\Amazon\\AWSCLI\\bin\\ 
+			   $route | aws
+			   '''
+			   
+			   
+			   
+			   
 
 			   } 
               }
