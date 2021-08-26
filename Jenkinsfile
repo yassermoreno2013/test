@@ -11,8 +11,8 @@ pipeline {
               script  {
                echo "DEV"
 			   powershell ''' 
-			   $route = cd C:\\Program Files\\Amazon\\AWSCLI\\bin\\ 
-			   $route | aws
+			   cd "C:\\Program Files\\Amazon\\AWSCLI\\bin\\" 
+			   | aws
 			   '''
 			   
 			   
