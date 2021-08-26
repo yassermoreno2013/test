@@ -11,9 +11,11 @@ pipeline {
               script  {
                echo "DEV"
 			   powershell ''' 
-			    cd "C:\\Program Files\\Amazon\\AWSCLI\\bin\\" & aws.exe 
+			    cd "C:\\Program Files\\Amazon\\AWSCLI\\bin\\"
 			   			   '''
-			   
+			   powershell ''' 
+			    dir
+			   			   '''
 			   
 
 			   } 
