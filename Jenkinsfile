@@ -5,11 +5,11 @@ pipeline {
     stages {
 
       
-     stage('STAGE1') {
+     stage('STAGE123') {
         
           steps {
               script  {
-               echo "DEV"
+               echo "DEVECV"
                 } 
               }
               
