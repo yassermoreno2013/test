@@ -10,7 +10,7 @@ pipeline {
           steps {
               script  {
                echo "DEV"
-			   powershell ''' dir '''
+			   powershell ''' aws '''
 
 			   } 
               }
