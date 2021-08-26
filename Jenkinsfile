@@ -10,7 +10,9 @@ pipeline {
           steps {
               script  {
                echo "DEV"
-                } 
+			   powershell ''' dir '''
+
+			   } 
               }
               
          }
