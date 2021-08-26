@@ -12,10 +12,11 @@ pipeline {
                echo "DEV"
 			   powershell ''' 
 			   cd "C:\\Program Files\\Amazon\\AWSCLI\\bin\\" 
-			   | aws
-			   '''
+			   			   '''
 			   
-			   
+			   powershell ''' 
+			   aws
+			   			   '''
 			   
 			   
 
