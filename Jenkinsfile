@@ -13,13 +13,9 @@ pipeline {
 			   powershell ''' 
 			    cd "C:\\Program Files\\Amazon\\AWSCLI\\bin\\"
 			   			   '''
-			   powershell ''' 
-			    dir
-			   			   '''
-			   
-
+			     
 			   } 
-              }
+             }
               
          }
          
