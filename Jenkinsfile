@@ -11,7 +11,7 @@ pipeline {
               script  {
                echo "DEV"
 			   powershell ''' 
-			    cd "C:\\Program Files\\Amazon\\AWSCLI\\bin\\"
+			    cd "C:\\Program Files\\Amazon\\AWSCLI\\bin\\" ; dir
 			   			   '''
 			     
 			   } 
