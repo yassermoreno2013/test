@@ -23,7 +23,7 @@ pipeline {
         
          steps {
               script  {
-                echo "TAG NUEVO"
+                echo "TAG NUEVO 9"
                 } 
              }
         }   
